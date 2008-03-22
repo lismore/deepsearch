@@ -717,7 +717,7 @@ namespace DeepGoogle
             this.tabTwo.Location = new System.Drawing.Point(4, 24);
             this.tabTwo.Name = "tabTwo";
             this.tabTwo.Padding = new System.Windows.Forms.Padding(3);
-            this.tabTwo.Size = new System.Drawing.Size(733, 88);
+            this.tabTwo.Size = new System.Drawing.Size(733, 87);
             this.tabTwo.TabIndex = 1;
             this.tabTwo.Text = "Videos";
             this.tabTwo.UseVisualStyleBackColor = true;
@@ -1250,7 +1250,7 @@ namespace DeepGoogle
             this.tab11.Controls.Add(this.rbMap);
             this.tab11.Location = new System.Drawing.Point(4, 24);
             this.tab11.Name = "tab11";
-            this.tab11.Size = new System.Drawing.Size(733, 87);
+            this.tab11.Size = new System.Drawing.Size(733, 88);
             this.tab11.TabIndex = 10;
             this.tab11.Text = "Map";
             this.tab11.UseVisualStyleBackColor = true;
@@ -1303,8 +1303,10 @@ namespace DeepGoogle
             this.webBrowser1.Location = new System.Drawing.Point(3, 17);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.ScriptErrorsSuppressed = true;
             this.webBrowser1.Size = new System.Drawing.Size(995, 409);
             this.webBrowser1.TabIndex = 0;
+            this.webBrowser1.Url = new System.Uri("http://code.google.com/p/deepsearch/", System.UriKind.Absolute);
             // 
             // frmOne
             // 
