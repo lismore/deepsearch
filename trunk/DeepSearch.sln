@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepSearch", "DeepSearch\DeepSearch.csproj", "{235C8800-E3B6-43EF-90AE-D545A262A3A6}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepWeb", "DeepWeb\DeepWeb.csproj", "{A18B6568-31C3-4796-A097-14EA9E30DCA1}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{235C8800-E3B6-43EF-90AE-D545A262A3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235C8800-E3B6-43EF-90AE-D545A262A3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235C8800-E3B6-43EF-90AE-D545A262A3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235C8800-E3B6-43EF-90AE-D545A262A3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A18B6568-31C3-4796-A097-14EA9E30DCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18B6568-31C3-4796-A097-14EA9E30DCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18B6568-31C3-4796-A097-14EA9E30DCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18B6568-31C3-4796-A097-14EA9E30DCA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal
