@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepWeb", "DeepWeb\DeepWeb.
 		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DeepSetup", "DeepSetup\DeepSetup.vdproj", "{15F0F0A3-FC0B-4B22-862D-99594293E7BF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,8 @@ Global
 		{A18B6568-31C3-4796-A097-14EA9E30DCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A18B6568-31C3-4796-A097-14EA9E30DCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A18B6568-31C3-4796-A097-14EA9E30DCA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F0F0A3-FC0B-4B22-862D-99594293E7BF}.Debug|Any CPU.ActiveCfg = Debug
+		{15F0F0A3-FC0B-4B22-862D-99594293E7BF}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
