@@ -27,12 +27,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_6040CD6233B24174AB7E59D25EFF33EA"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_70EDAA99E5C54100A4A223EB6B60EFD1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -45,14 +39,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_337582192EB6B04EF760EEDC5F093C93"
+        "MsmKey" = "8:_C8D6C765D5B94ED2B6554DDD73409865"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6040CD6233B24174AB7E59D25EFF33EA"
+        "OwnerKey" = "8:_337582192EB6B04EF760EEDC5F093C93"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -131,6 +125,11 @@
             "AssemblyAsmDisplayName" = "8:DeepWeb, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_337582192EB6B04EF760EEDC5F093C93"
+                    {
+                    "Name" = "8:DeepWeb.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:DeepWeb.dll"
             "TargetName" = "8:"
@@ -154,6 +153,26 @@
             {
             "SourcePath" = "8:..\\DeepSearch\\bin\\Debug\\CopyRightNotice.txt"
             "TargetName" = "8:CopyRightNotice.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_F4D08D840A164C47A340E6532CDD0A11"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C8D6C765D5B94ED2B6554DDD73409865"
+            {
+            "SourcePath" = "8:..\\DeepSearch\\favicon.ico"
+            "TargetName" = "8:favicon.ico"
             "Tag" = "8:"
             "Folder" = "8:_F4D08D840A164C47A340E6532CDD0A11"
             "Condition" = "8:"
@@ -196,6 +215,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_54138BBA816841649CF43B897426033E"
+                    {
+                    "Name" = "8:DeepSearch"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_F90B5CAE124D497BAA1F8EE75D72E6CE"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_F4D08D840A164C47A340E6532CDD0A11"
@@ -226,22 +256,22 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DeepSetup"
         "ProductCode" = "8:{D77662F8-E462-44B4-A3F0-E6D0069A4F77}"
-        "PackageCode" = "8:{D1056A8B-7EE8-457D-B7F0-314D58C12B0C}"
+        "PackageCode" = "8:{271A877D-F84D-4404-809C-1500F67EC30B}"
         "UpgradeCode" = "8:{D4EBF5BE-2022-461D-8F39-30FF6D7C052A}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
-        "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:"
+        "Manufacturer" = "8:New Ireland Computing"
+        "ARPHELPTELEPHONE" = "8:01316621777"
+        "ARPHELPLINK" = "8:http://www.newirelandcomputing.com/DeepSearch/Support/index.html"
         "Title" = "8:DeepSetup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:New Ireland Computing"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
-        "ARPURLINFOABOUT" = "8:"
+        "ARPCOMMENTS" = "8:A program to search the deep web"
+        "ARPURLINFOABOUT" = "8:http://www.newirelandcomputing.com"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
@@ -345,6 +375,48 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_327719789B0949D381CFBBC2865C1225"
+            {
+            "Name" = "8:DeepSearch"
+            "Arguments" = "8:"
+            "Description" = "8:This program allows you to search the deep web"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_70EDAA99E5C54100A4A223EB6B60EFD1"
+            "Folder" = "8:_2F0F801D8D2E4D2BA5AFE46A9084DFF7"
+            "WorkingFolder" = "8:_F4D08D840A164C47A340E6532CDD0A11"
+            "Icon" = "8:_C8D6C765D5B94ED2B6554DDD73409865"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_43DC66EEFB03422EADE0AFF19FEA8795"
+            {
+            "Name" = "8:DeepSearch"
+            "Arguments" = "8:"
+            "Description" = "8:This program allows you to search the deep web"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_70EDAA99E5C54100A4A223EB6B60EFD1"
+            "Folder" = "8:_54138BBA816841649CF43B897426033E"
+            "WorkingFolder" = "8:_F4D08D840A164C47A340E6532CDD0A11"
+            "Icon" = "8:_C8D6C765D5B94ED2B6554DDD73409865"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_73F9C4790B594EF2A84E771687E9CA72"
+            {
+            "Name" = "8:CopyRightNotice"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_8F3F127763F848F195BAFDC6753BE281"
+            "Folder" = "8:_54138BBA816841649CF43B897426033E"
+            "WorkingFolder" = "8:_F4D08D840A164C47A340E6532CDD0A11"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
@@ -802,7 +874,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_58DC6E6176F94F9B9B56E35149AA08E0"
             {
-            "SourcePath" = "8:..\\DeepSearch\\bin\\Debug\\DeepSearch.XML"
+            "SourcePath" = "8:..\\DeepSearch\\bin\\Release\\DeepSearch.XML"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F4D08D840A164C47A340E6532CDD0A11"
@@ -823,34 +895,6 @@
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Documentation"
             "OutputProjectGuid" = "8:{235C8800-E3B6-43EF-90AE-D545A262A3A6}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6040CD6233B24174AB7E59D25EFF33EA"
-            {
-            "SourcePath" = "8:..\\DeepWeb\\obj\\Debug\\DeepWeb.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_F4D08D840A164C47A340E6532CDD0A11"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{A18B6568-31C3-4796-A097-14EA9E30DCA1}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
@@ -886,7 +930,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_70EDAA99E5C54100A4A223EB6B60EFD1"
             {
-            "SourcePath" = "8:..\\DeepSearch\\obj\\Debug\\DeepSearch.exe"
+            "SourcePath" = "8:..\\DeepSearch\\obj\\Release\\DeepSearch.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F4D08D840A164C47A340E6532CDD0A11"

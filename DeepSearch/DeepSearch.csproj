@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DeepSearch</RootNamespace>
     <AssemblyName>DeepSearch</AssemblyName>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <ManifestCertificateThumbprint>482EB9A408B1DA275CBB8A9E743F2481878E2608</ManifestCertificateThumbprint>
     <ManifestKeyFile>DeepSearch_TemporaryKey.pfx</ManifestKeyFile>
@@ -18,7 +18,7 @@
     <SignManifests>true</SignManifests>
     <PublishUrl>ftp://www.newirelandcomputing.net/newirelandcomputing.com/DeepSearch/</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
+    <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Background</UpdateMode>
     <UpdateInterval>30</UpdateInterval>
@@ -26,15 +26,18 @@
     <UpdatePeriodically>true</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.newirelandcomputing.com/DeepSearch/</InstallUrl>
     <UpdateUrl>http://www.newirelandcomputing.com/DeepSearch/</UpdateUrl>
     <SupportUrl>http://www.newirelandcomputing.com/DeepSearch/Support/index.html</SupportUrl>
     <TargetCulture>en</TargetCulture>
-    <ProductName>Deep Search </ProductName>
-    <PublisherName>Patrick Lismore </PublisherName>
+    <ProductName>Deep Search</ProductName>
+    <PublisherName>New Ireland Computing</PublisherName>
     <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.html</WebPage>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationVersion>1.0.0.1</ApplicationVersion>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -55,6 +58,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\DeepSearch.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -97,6 +101,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
     <None Include="DeepSearch_TemporaryKey.pfx" />
     <BaseApplicationManifest Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
