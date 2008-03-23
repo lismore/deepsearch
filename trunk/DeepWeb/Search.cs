@@ -22,8 +22,8 @@ namespace DeepWeb
          *Discription       :   This method will take the users search
          *                      query and file types to search for and
          *                      build up a URL so that I can pass back 
-         *                      as a string for web browser control to
-         *                      use
+         *                      as a string for the web browser control
+         *                      to use
          * Parameters       :   query,  SearchType
          * 
          **/
@@ -48,5 +48,159 @@ namespace DeepWeb
         }
 
 
+        /**
+         * Method Name      :   DeepTool
+         * Discription      :   This method will pass back specific
+         *                      url with users query based on which option
+         *                      is choosen by the uesr
+         * Parameters       :   query, tool
+         * 
+         * */
+        public string DeepTool(string query, int tool)
+        {
+            String URL = "";
+
+            //links
+            if (tool == 1)
+            {
+                URL = "http://www.google.com/search?q=link%3A" + query;
+            }
+            else if (tool == 2)
+            {   
+                //add site to google
+                URL = "http://www.google.com/addurl?q=" + query + "&hl=en&dqq=";
+            }
+            else if (tool == 3)
+            {
+                //related to
+                URL = "http://www.google.com/search?q=related%3A" + query;
+            }
+            else if (tool == 4)
+            {
+                //search site
+                URL = "http://www.google.com/search?q=site%3A" + query;
+            }
+            return URL;
+        }
+        
+        /**
+         * Method Name      :   DeepAdmin
+         * Discription      :   This method will return a specific
+         *                      url based on the users choice
+         * Parameters       :   query, tool
+         * 
+         * */
+        public string DeepAdmin(string query, int tool)
+        {
+            String URL = "";
+
+            //auth_user_file
+            if (tool == 1)
+            {
+                URL = "http://www.google.com/search?hl=en&q=allinurl%3Aauth_user_file.txt" + query;
+            }
+            else if (tool == 2)
+            {
+                //config.php files
+                URL = "http://www.google.com/search?q=intitle%3A%22Index+of%22+config.php" + query;
+            }
+            else if (tool == 3)
+            {
+                //password lists
+                URL = "http://www.google.com/search?q=inurl%3Apasslist.txt&btnG=Search" + query;
+            }
+            else if (tool == 4)
+            {
+                //passwords on the web
+                URL = "http://www.google.com/search?q=intitle%3A%22Index+of%22+passwords+modified" + query;
+            }
+            return URL;
+            
+        }
+
+        /**
+         * Method Name  :   DeepTorrent
+         * Discription  :   This method will return a url that will search
+         *                  for a torrent based on the users query
+         * Parameters   :   query
+         * 
+         **/
+        public string DeepTorrent(string query)
+        {
+            String URL ="";
+
+            //torrent url 
+            URL = "http://www.google.com/search?q=" + query + "&btnG=Search&q=filetype%3Atorrent ";
+            
+            return URL;
+
+        }
+
+        /**
+         * Method Name      :   DeepFonts
+         * Discription      :   This method will return a url that will
+         *                      dig for fonts based on the users query
+         * Parameters       :   query
+         * 
+         **/
+        public string DeepFonts(string query)
+        {
+            String URL = "";
+
+            // fonts url
+            URL = "http://www.google.com/search?q=site%3Ahttp%3A%2F%2Fwww.searchfreefonts.com " + query;
+            
+            return URL;
+        }
+
+        /**
+         * Method Name      :   DeepLyrics
+         * Discription      :   This method digs for lyrics of songs from
+         *                      lyrics.com
+         * Parameters       :   query
+         * 
+         **/
+        public string DeepLyrics(string query)
+        {
+            String URL = "";
+
+            //lyrics url
+            URL = "http://www.google.com/search?q=site%3Awww.lyrics.com " + query;
+            
+            return URL;
+        }
+
+        /**
+         * Method Name      :   DeepTranslate
+         * Discription      :   This method will return a url that  
+         *                      will query Googles Translate Dictionary
+         *                      and will convert words from English to German
+         *                      more languages to come
+         * Parameters       :   query , lang
+         * 
+         * 
+         **/
+        public string DeepTranslate(string query, string lang)
+        {
+            String URL = "";
+            
+            //Translate URL
+            URL = "http://translate.google.com/translate_dict?q="+query+"&hl=en&langpair=en%7Cde";
+            return URL;
+        }
+
+        /**
+         * Method Name      :   DeepMap
+         * Discription      :   This method will retun a url that will
+         *                      show the user  a map of the town or city queryed
+         * Parameters       :   query
+         **/
+        public string DeepMap(string query)
+        {
+            String URL = "";
+
+            URL = "http://maps.google.com/maps?hl=en&q="+query+"&um=1&ie=UTF-8&sa=N&tab=wl";
+            return URL;
+        }
     }
 }
