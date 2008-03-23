@@ -17,8 +17,7 @@ namespace DeepGoogle
      **/
     public partial class frmOne : Form
     {
-        // Change the type of the panel to StatusBarProgressPanel on your Form
-
+        
        /**
          *Method Name   :   frmOne
          * Discription  :   Initializes the component
@@ -251,43 +250,43 @@ namespace DeepGoogle
                     //Adds the file type doc to the variable SearchType
                     SearchType = SearchType + "|.doc";
                 }
-            }
-            if (cbPdf.Checked == true)
-            {
-                //Adds the file type pdf to the variable SearchType
-                SearchType = SearchType + "|.pdf";
-            }
-            if (cbRtf.Checked == true)
-            {
-                //Adds the file type rtf to the variable SearchType
-                SearchType = SearchType + "|.rtf";
-            }
-            if (cbTxt.Checked == true)
-            {
-                //Adds the file type asx to the variable SearchType
-                SearchType = SearchType + "|.txt";
-            }
-            if (cbChm.Checked == true)
-            {
-                //Adds the file type chm to the variable SearchType
-                SearchType = SearchType + "|.chm";
-            }
-            if (cbDocx.Checked == true)
-            {
-                //Adds the file type docx to the variable SearchType
-                SearchType = SearchType + "|.docx";
-            }
-            if (cbJava.Checked == true)
-            {
-                //Adds the file type java to the variable SearchType
-                SearchType = SearchType + "|.java";
-            }
-            if (cbXml.Checked == true)
-            {
-                //Adds the file type asx to the variable SearchType
-                SearchType = SearchType + "|.xml";
-            }
 
+                if (cbPdf.Checked == true)
+                {
+                    //Adds the file type pdf to the variable SearchType
+                    SearchType = SearchType + "|.pdf";
+                }
+                if (cbRtf.Checked == true)
+                {
+                    //Adds the file type rtf to the variable SearchType
+                    SearchType = SearchType + "|.rtf";
+                }
+                if (cbTxt.Checked == true)
+                {
+                    //Adds the file type asx to the variable SearchType
+                    SearchType = SearchType + "|.txt";
+                }
+                if (cbChm.Checked == true)
+                {
+                    //Adds the file type chm to the variable SearchType
+                    SearchType = SearchType + "|.chm";
+                }
+                if (cbDocx.Checked == true)
+                {
+                    //Adds the file type docx to the variable SearchType
+                    SearchType = SearchType + "|.docx";
+                }
+                if (cbJava.Checked == true)
+                {
+                    //Adds the file type java to the variable SearchType
+                    SearchType = SearchType + "|.java";
+                }
+                if (cbXml.Checked == true)
+                {
+                    //Adds the file type asx to the variable SearchType
+                    SearchType = SearchType + "|.xml";
+                }
+            }
 
             #endregion
             #region Applications
